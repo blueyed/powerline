@@ -250,11 +250,12 @@ def window_title(pl, segment_info):
 
 	This currently looks at the ``quickfix_title`` window variable,
 	which is used by Syntastic and Vim itself.
-	
+
 	It is used in the quickfix theme.'''
-	if 'quickfix_title' in segment_info['window'].vars:
+	try:
 		return segment_info['window'].vars['quickfix_title']
-	return
+	except KeyError:
+		return None
 
 
 @requires_segment_info
