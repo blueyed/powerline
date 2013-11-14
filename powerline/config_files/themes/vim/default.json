@@ -1,5 +1,8 @@
 {
 	"segment_data": {
+		"virtualenv": {
+			"before": "ⓔ  "
+		},
 		"branch": {
 			"before": " "
 		},
@@ -36,12 +39,17 @@
 				"priority": 30
 			},
 			{
+				"name": "virtualenv",
+				"module": "powerline.segments.common"
+			},
+			{
 				"name": "readonly_indicator",
 				"draw_soft_divider": false,
 				"after": " "
 			},
 			{
 				"name": "file_directory",
+				"args": { "shorten_home": true },
 				"priority": 40,
 				"draw_soft_divider": false
 			},
