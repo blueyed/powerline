@@ -10,6 +10,7 @@
 		"modified_indicator":       { "fg": "yellow", "bg": "darkgreencopper", "attr": ["bold"] },
 		"paste_indicator":          { "fg": "oldlace", "bg": "orange", "attr": ["bold"] },
 		"readonly_indicator":       { "fg": "red", "bg": "darkgreencopper" },
+		"virtualenv":               { "fg": "lightyellow", "bg": "darkgreencopper" },
 		"branch":                   { "fg": "lightyellow", "bg": "darkgreencopper" },
 		"branch_dirty":             { "fg": "yellow", "bg": "darkgreencopper" },
 		"branch_clean":             { "fg": "lightyellow", "bg": "darkgreencopper" },
